@@ -4,6 +4,8 @@ Implement Quicksort algorithm in the `quicksort.asm` file.
 Quicksort is classified as a Divide and Conquer algorithm. The basic idea behind it is that when an element is known to be at its correct place, and all the elements before it are smaller than it and all the elements after it are bigger, we can safely sort the subarrys left and right of that element to sort the whole array.  
 Hence first it's needed to place an element, namely pivot, at its right place. For that purpose in your implementation you have to choose a random element of the array and partition the array according to that pivot. After that, you have to sort the left and right subarrays.
 For more information about Quicksort you can visit [this link](https://brilliant.org/wiki/quick-sort/#choosing-a-pivot).  
+The `cppimpl` folder has the implementation of the algorithm in C++. You may want to take a look at it.  
+The `mergesort.asm` has the implementation of the mergesort algorithm in MIPS assembly. You may want to take look it too.  
 
 ***Attention***: Implementing another method for choosing pivot leads to score loss.  
 
