@@ -32,7 +32,7 @@ do
  
     echo "Running Test $filename -------------------------------------"
     echo "$filelist"
-    spim -f mergesort.asm < "$TEST_DIRECTORY$program_input" | tail -n +2  > "$OUTPUT_DIRECTORY$output_filename"
+    spim -f quicksort.asm < "$TEST_DIRECTORY$program_input" | tail -n +2  > "$OUTPUT_DIRECTORY$output_filename"
     if [ $? -eq 0 ]; then
         echo "Code Executed Successfuly!"
         checkeq "$OUTPUT_DIRECTORY$output_filename" "$TEST_DIRECTORY$output_filename" "$REPORT_DIRECTORY$report_filename"
