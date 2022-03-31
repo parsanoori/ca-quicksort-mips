@@ -1,8 +1,7 @@
-        .data
-sep:	.asciiz "\n"
-.text
-
-
+    .data
+sep:    .asciiz "\n"
+    .text
+    .globl main
 main:
 
     li $v0, 5
