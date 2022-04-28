@@ -51,10 +51,10 @@ In each line of the output print each element of the ascending sorted array.
 The final score consists of two parts. Fifty percent of it is for passing the tests and the other is for the oral presentation.  
 
 The tests score is acheived by running the `run.sh` bash script.  
-It requires a unix-like operating system with `bash` and `python3` and `spim` installed on it and.  
+It requires a unix-like operating system with `bash` and `python3` and `mars` installed on it and.  
 
-***Important***: Since the tests are run usings `spim` your assembly code ***must*** have the main symbol for the simulator to jump into it. This is not needed on mars, hence pay attention to it. Loss of score will occur if your code cannot be run via spim.   
+***Important***: Since the tests are run usings `mars` you need JVM.   
 
-For getting a feel on how tests are run change the `quicksort.asm` in line 35 of `run.sh` to `mergesort.asm` and run the script.
+For getting a feel on how tests are run, change the `quicksort.asm` in line 35 of `run.sh` to `mergesort.asm` and run the script.
 
 ***Finally***: Have fun and do not cheat.
